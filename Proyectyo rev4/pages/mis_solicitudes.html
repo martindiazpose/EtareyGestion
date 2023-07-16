@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis solicitudes
+    </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <a class="navbar-brand" href="../index.html">
+            <img id="header-logo" src="/assets/img/Etarey.png" alt="Etarey" />
+        </a>
+        <h1 class="unidad">Mis solicitudes</h1>
+        <nav id="header" class="navbar navbar-expand-md fixed-top navbar-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#links"
+                aria-controls="links" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="links" class="collapse navbar-collapse justify-content-end row">
+                <ul class="navbar-nav">
+                    <li class="nav-item col-2">
+                        <a class="nav-link" href="crear_solicitud.html">Crear solicitud</a>
+                    </li>
+                    <li class="nav-item col-2">
+                        <a class="nav-link" href="mis_solicitudes.html">Mis solicitudes</a>
+                    </li>
+                    <li class="nav-item col-3">
+                        <a class="nav-link" href="solicitudes_para_aprobar.html">Solicitudes para aprobar</a>
+                    </li>
+                    <li class="nav-item col-2">
+                        <a class="nav-link" href="/index.html">Usuario</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <table class="table table table-hover table table-bordered border-primary">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Solicitante</th>
+                <th scope="col">Detalle</th>
+                <th scope="col">ID solicitud</th>
+                <th scope="col">Fecha de creación</th>
+                <th scope="col">Asignado a:</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Santiago Torterolo</td>
+                <td>Compra de Impresora</td>
+                <td>001</td>
+                <td>23/02/2023</td>
+                <td>Cristian Rodriguez</td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Federico Rodriguez</td>
+                <td>Compra de Servidor </td>
+                <td>002</td>
+                <td>24/02/2023</td>
+                <td>Federico Rodriguez</td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>Daniel Comunales</td>
+                <td>Compra de Mesa Ping Pong</td>
+                <td>003</td>
+                <td>24/02/2023</td>
+                <td>Cristian Rodriguez</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+</body>
+
+</html>

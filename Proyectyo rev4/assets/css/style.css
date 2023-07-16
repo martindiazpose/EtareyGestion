@@ -1,0 +1,273 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+.indexbody {
+  background-image: url(/assets/img/imagen1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+main {
+  width: 100%;
+  padding: 20px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.contenedor__todo {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  position: relative;
+}
+
+.caja__trasera {
+  width: 100%;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  background-color: rgba(221, 89, 12, 0.898);
+}
+
+.caja__trasera div {
+  margin: 100px 40px;
+  color: white;
+  transition: all 500ms;
+}
+
+.caja__trasera div p,
+.caja__trasera button {
+  margin-top: 30px;
+}
+
+.caja__trasera div h3 {
+  font-weight: 400;
+  font-size: 26px;
+}
+
+.caja__trasera div p {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.caja__trasera button {
+  padding: 10px 40px;
+  border: 2px solid #fff;
+  font-size: 14px;
+  background: transparent;
+  font-weight: 600;
+  cursor: pointer;
+  color: white;
+  outline: none;
+  transition: all 300ms;
+}
+
+.caja__trasera button:hover {
+  background: #ffffff;
+  color: rgba(221, 89, 12, 0.898);
+}
+
+/*Formularios*/
+
+.contenedor__login-register {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 380px;
+  position: relative;
+  top: -185px;
+  left: 10px;
+
+  /*La transicion va despues del codigo JS*/
+  transition: left 500ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.contenedor__login-register form {
+  width: 100%;
+  padding: 80px 20px;
+  background: white;
+  position: absolute;
+  border-radius: 20px;
+}
+
+.contenedor__login-register form h2 {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: rgba(221, 89, 12, 0.898);
+}
+
+.contenedor__login-register form input {
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;
+  border: none;
+  background: #f2f2f2;
+  font-size: 16px;
+  outline: none;
+}
+
+.contenedor__login-register form button {
+  padding: 10px 40px;
+  margin-top: 40px;
+  border: none;
+  font-size: 14px;
+  background: rgba(221, 89, 12, 0.898);
+  font-weight: 600;
+  cursor: pointer;
+  color: white;
+  outline: none;
+}
+
+.formulario__login {
+  opacity: 1;
+  display: block;
+}
+
+.formulario__register {
+  display: none;
+}
+
+@media screen and (max-width: 850px) {
+  main {
+    margin-top: 50px;
+  }
+
+  .caja__trasera {
+    max-width: 350px;
+    height: 300px;
+    flex-direction: column;
+    margin: auto;
+  }
+
+  .caja__trasera div {
+    margin: 0px;
+    position: absolute;
+  }
+
+  /*Formularios*/
+
+  .contenedor__login-register {
+    top: -10px;
+    left: -5px;
+    margin: auto;
+  }
+
+  .contenedor__login-register form {
+    position: relative;
+  }
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+SC:ital@1&family=Bebas+Neue&family=Delicious+Handrawn&family=Electrolize&family=M+PLUS+Code+Latin:wght@300&family=Michroma&family=Sigmar&display=swap");
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "lato", sans-serif;
+}
+
+
+h1 {
+  text-align: center;
+  color: orangered;
+  font-size: 56px;
+  margin-top: 20px;
+  font-family: "Michroma", sans-serif;
+}
+
+nav ul {
+  width: 100%;
+}
+
+nav li {
+  height: 50px;
+  margin: 60px;
+}
+
+.unidad {
+  margin-top: 30px;
+  padding-top: 40px;
+  margin-left: 15px;
+}
+
+h2 {
+  font-family: "Delicious Handrawn", cursive;
+}
+
+option,
+label,
+textarea,
+td {
+  font-family: "Alegreya SC", serif;
+}
+
+h3 {
+  font-family: "M PLUS Code Latin", sans-serif;
+}
+
+.centrar {
+  text-align: center;
+}
+
+footer img {
+  padding: 10px;
+  height: 40px;
+}
+
+
+
+footer {
+  text-align: center;
+  background-color: transparent;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: rgb(10, 10, 10);
+
+}
+.footer-text {
+  font-weight: bold;
+}
+
+#header-logo {
+  width: auto;
+  height: 20px;
+}
+
+#header {
+  background-color: black;
+  width: auto;
+  height: 45px;
+  border-bottom: 4px solid #ff8f00;
+  font-size: 18px;
+}
+.footer-figure {
+  background-color:transparent;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgba(221, 89, 12, 0.898);
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.btn-encuadrado {
+  border: 2px solid #000;
+}
